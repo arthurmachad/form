@@ -1,0 +1,44 @@
+body, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+#container{
+    display: grid;
+   
+    grid-template-areas: 
+            'cabecalho'
+            'conteudo'
+    ;
+}
+
+#cabecalho{
+    grid-area: cabecalho;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+     background-color: #DCDCDC;
+}
+
+
+.menu{
+    display: flex;
+    
+    
+
+}
+
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #4169E1;
+    border-radius: 10px;
+}
